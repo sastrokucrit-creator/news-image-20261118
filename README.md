@@ -13,6 +13,6 @@ in Manila, and Eisenkot being tapped to form Israel's next government.
 
 `main.ts` (Node 22, standard library only) copies `entry.png` to
 `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR`). The image is a 1024×1024
-PNG of 665,653 bytes; no network is used, so two runs write identical bytes.
+PNG of 666,395 bytes; no network is used, so two runs write identical bytes.
 
 License: MIT.
