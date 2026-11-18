@@ -1,6 +1,6 @@
 // News-image entry: a front-page poster summing up 18 November 2026.
 //
-// The image lives in this repository as entry.png (a 1024x1024 PNG, 387,958
+// The image lives in this repository as entry.png (a 1024x1024 PNG, 410,684
 // bytes). This program does nothing but place that file where the grader
 // expects it: /output/entry.png, or MAKEFUN_OUTPUT_DIR when the harness
 // sets one (the usual stand-in outside the grading container).
@@ -8,11 +8,12 @@
 // The poster itself was composed for this entry: a burning oil tanker in
 // the Strait of Hormuz at dusk, under the masthead "18 NOVEMBER 2026" and
 // the headline "US DESTROYS FIVE IRANIAN TANKERS AS IRAN HITS BACK", with
-// a "THE DAY IN NUMBERS" strip (5 tankers, 141 drones, 848 Dow points,
+// a "THE DAY IN NUMBERS" strip (5 tankers, 141 drones, 849 Dow points,
 // 56-44 Senate, 37 civilians, $130bn Nvidia), a twelve-panel grid for the
 // day's other big stories (APEC, Kerch Bridge, markets, cyclone, Gaza,
-// COP31, Peltola, Russia drones, UK inflation, Eisenkot, Quad, Sudan), a
-// dotted world map "WHERE IT HAPPENED", and a numbered list of 32 more
+// COP31, Peltola, Russia drones, UK inflation, Eisenkot, Quad, Sudan) —
+// each panel carries its own small illustration and its own accent colour,
+// a dotted world map "WHERE IT HAPPENED", and a numbered list of 32 more
 // stories, 45 stories across 6 continents on one page. The text was laid
 // out with a font renderer so it stays sharp; nothing is fetched at run
 // time, so two runs always write the same bytes.
